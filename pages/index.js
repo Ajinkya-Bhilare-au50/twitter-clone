@@ -1,24 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Sidebar from '@/components/Sidebar'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import Sidebar from "@/components/Sidebar";
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
       <title>Twitter clone</title>
 
-      <main>
-        
+      <main className="flex min-h-screen max-w-7xl mx-auto ">
+        {/* Sidebar */}
+        <Sidebar />
+        {/* feed */}
+        {/* widgets */}
+        {/* modal */}
       </main>
-      {/* Sidebar */}
-      <Sidebar />
-      {/* feed */}
-      {/* widgets */}
-      {/* modal */}
     </>
   );
 }
