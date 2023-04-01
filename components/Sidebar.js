@@ -42,17 +42,19 @@ function Sidebar() {
         Tweet
       </button>
       {/* miniprofile */}
-      <div className="hoverEffect text-gray-700 flex items-center justify-center xl:justify-start">
-        <img
-          className="block mx-auto sm:mx-0 xl:mr-2 sm:h-[50px] sm:w-[50px] object-cover rounded-full xl:h-[40px] xl:w-[40px]"
-          src="https://hairstylecamp.com/wp-content/uploads/men-square-face-hairstyle-2.jpg"
-          alt="user-img"
-        />
-        <div className="leading-5">
-          <h4 className="font-bold">Amit Patel</h4>
-          <p className="text-gray-500 text-xs"> @coderSmart</p>
+      <div className="sm:flex sm:justify-center sm:items-center sm:flex-col">
+        <div className="hoverEffect text-gray-700 lg:flex lg:items-center lg:flex-row justify-center xl:justify-start sm:flex  sm:flex-col sm:justify-center sm:content-center">
+          <img
+            className="block sm:mx-5 mx-auto  xl:mr-2 sm:h-[40px] sm:w-[40px] object-cover rounded-full xl:h-[40px] xl:w-[40px]"
+            src="https://hairstylecamp.com/wp-content/uploads/men-square-face-hairstyle-2.jpg"
+            alt="user-img"
+          />
+          <div className="leading-5 ">
+            <h6 className="font-bold ">Amit Patel</h6>
+            <p className="text-gray-500 text-xs"> @coderSmart</p>
+          </div>
+          <DotsHorizontalIcon className="h-5 xl:ml-8" />
         </div>
-        <DotsHorizontalIcon className="h-5 xl:ml-8" />
       </div>
     </div>
   );
