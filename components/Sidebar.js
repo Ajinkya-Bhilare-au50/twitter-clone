@@ -20,6 +20,7 @@ function Sidebar() {
           <Image
             width="55"
             height="55"
+            alt="freepng"
             src={
               "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
             }
